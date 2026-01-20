@@ -3,8 +3,8 @@
 Thumbs.db
 *.tmp
 
-# Do NOT ignore executables as this is a download repo
-!*.exe
+# Do NOT ignore zip files as they contain the password protected installers
+!*.zip
 
 # Ignore dev related files if accidentally copied
 *.py

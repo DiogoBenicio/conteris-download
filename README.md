@@ -6,11 +6,14 @@ Aqui você encontra as versões compiladas para Windows do aplicatvo.
 
 ## ⬇️ Downloads Disponíveis
 
+> 🔒 **Arquivos protegidos por senha.**
+> Entre em contato com a equipe para obter a senha de acesso.
+
 ### Versão Mais Recente
-- [**Conteris v1.1.1**](./Conteris_Installer_v1.1.1.exe) _(Recomendado)_
+- [**Conteris v1.1.1 (ZIP)**](./Conteris_Installer_v1.1.1.zip) _(Recomendado)_
 
 ### Versões Anteriores
-- [Conteris v1.0.0](./Conteris_Installer_v1.0.0.exe)
+- [Conteris v1.0.0 (ZIP)](./Conteris_Installer_v1.0.0.zip)
 
 ---
 
