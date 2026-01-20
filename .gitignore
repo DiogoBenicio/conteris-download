@@ -1,0 +1,15 @@
+# Ignore system files
+.DS_Store
+Thumbs.db
+*.tmp
+
+# Do NOT ignore executables as this is a download repo
+!*.exe
+
+# Ignore dev related files if accidentally copied
+*.py
+*.spec
+*.iss
+__pycache__/
+.venv/
+.git/
