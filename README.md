@@ -10,16 +10,17 @@ Aqui você encontra as versões compiladas para Windows do aplicatvo.
 > Entre em contato com a equipe para obter a senha de acesso.
 
 ### Versão Mais Recente
-- [**Conteris v1.1.1 (ZIP)**](./Conteris_Installer_v1.1.1.zip) _(Recomendado)_
+- [**Conteris v1.2.0 (ZIP)**](./Conteris_Installer_v1.2.0.zip) _(Recomendado)_
 
 ### Versões Anteriores
+- [Conteris v1.1.1 (ZIP)](./Conteris_Installer_v1.1.1.zip)
 - [Conteris v1.0.0 (ZIP)](./Conteris_Installer_v1.0.0.zip)
 
 ---
 
 ## 📝 Histórico de Versões
 
-### v1.1.1 (Atual)
+### v1.2.0 (Atual)
 - **Correção**: Inclusão da pasta `resources` na instalação para permitir edição externa do arquivo `names.txt`.
 - **Correção**: Ajustes no manual do usuário.
 
