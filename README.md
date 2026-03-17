@@ -10,8 +10,7 @@ Aqui você encontra as versões compiladas para Windows do aplicativo.
 > Entre em contato com a equipe para obter a senha de acesso.
 
 ### Versão Mais Recente
-
-> ⚠️ O instalador v1.2.2 será publicado assim que o build Windows for gerado.
+- [**Conteris v1.2.2 (ZIP)**](https://github.com/DiogoBenicio/conteris-download/releases/download/v1.2.2/Conteris_Installer_v1.2.2.zip) _(Recomendado)_
 
 ### Versões Anteriores
 - [**Conteris v1.2.1 (ZIP)**](https://github.com/DiogoBenicio/conteris-download/releases/download/v1.2.1/Conteris_Installer_v1.2.1.zip)
