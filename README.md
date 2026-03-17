@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://raw.githubusercontent.com/DiogoBenicio/conteirs/main/icons/logo-conteirs.png" width="280" alt="Conteris Logo"/>
+</p>
+
 # Conteris - Download Repository
 
 Repositório oficial para distribuição dos instaladores do **Conteris - Separador de Holerites**.
