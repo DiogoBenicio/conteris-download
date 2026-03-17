@@ -10,9 +10,10 @@ Aqui você encontra as versões compiladas para Windows do aplicatvo.
 > Entre em contato com a equipe para obter a senha de acesso.
 
 ### Versão Mais Recente
-- [**Conteris v1.2.1 (ZIP)**](./Conteris_Installer_v1.2.1.zip) _(Recomendado)_
+- [**Conteris v1.2.2 (ZIP)**](./Conteris_Installer_v1.2.2.zip) _(Recomendado)_
 
 ### Versões Anteriores
+- [Conteris v1.2.1 (ZIP)](./Conteris_Installer_v1.2.1.zip)
 - [Conteris v1.2.0 (ZIP)](./Conteris_Installer_v1.2.0.zip)
 - [Conteris v1.1.1 (ZIP)](./Conteris_Installer_v1.1.1.zip)
 - [Conteris v1.0.0 (ZIP)](./Conteris_Installer_v1.0.0.zip)
@@ -21,7 +22,16 @@ Aqui você encontra as versões compiladas para Windows do aplicatvo.
 
 ## 📝 Histórico de Versões
 
-### v1.2.1 (Atual)
+### v1.2.2 (Atual)
+- **UI**: Padronização visual completa entre os módulos Salários e Notas Fiscais.
+- **UI**: Módulo NF exibe resultados apenas após clicar nos botões de processamento.
+- **Refatoração**: `PdfService` singleton com cache de documentos para melhor desempenho.
+- **Refatoração**: Tema centralizado, `MessageMixin` e pool de `PageIcon` — menos uso de memória.
+- **Recurso**: Banco de nomes brasileiros expandido.
+- **Correção**: Janelas e modais abrem sempre no monitor principal em configurações multi-monitor.
+- **Testes**: 146/146 testes passando.
+
+### v1.2.1
 - **Novo**: Identidade visual oficial — novo ícone e logo com gradiente azul/vermelho e sombra projetada.
 - **Novo**: Arquivo `.ico` multi-resolução com 6 tamanhos (16×16 a 256×256).
 - **Correção**: Logo exibia nome "conteri" (sem o "s") — viewBox corrigido.
