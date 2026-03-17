@@ -4,7 +4,7 @@
 
 # Conteris - Download Repository
 
-Repositório oficial para distribuição dos instaladores do **Conteris - Separador de Holerites**.
+Repositório oficial para distribuição dos instaladores do **Conteris - Gerenciador de PDFs**.
 
 Aqui você encontra as versões compiladas para Windows do aplicativo.
 
