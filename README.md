@@ -14,9 +14,10 @@ Aqui você encontra as versões compiladas para Windows do aplicativo.
 > Entre em contato com a equipe para obter a senha de acesso.
 
 ### Versão Mais Recente
-- [**Conteris v1.2.2 (ZIP)**](https://github.com/DiogoBenicio/conteris-download/releases/download/v1.2.2/Conteris_Installer_v1.2.2.zip) _(Recomendado)_
+- [**Conteris v1.2.3 (ZIP)**](https://github.com/DiogoBenicio/conteris-download/releases/download/v1.2.3/Conteris_Installer_v1.2.3.zip) _(Recomendado)_
 
 ### Versões Anteriores
+- [**Conteris v1.2.2 (ZIP)**](https://github.com/DiogoBenicio/conteris-download/releases/download/v1.2.2/Conteris_Installer_v1.2.2.zip)
 - [**Conteris v1.2.1 (ZIP)**](https://github.com/DiogoBenicio/conteris-download/releases/download/v1.2.1/Conteris_Installer_v1.2.1.zip)
 - [Conteris v1.1.1 (ZIP)](https://github.com/DiogoBenicio/conteris-download/releases/download/v1.1.1/Conteris_Installer_v1.1.1.zip)
 - [Conteris v1.0.0 (ZIP)](https://github.com/DiogoBenicio/conteris-download/releases/download/v1.0.0/Conteris_Installer_v1.0.0.zip)
@@ -25,14 +26,20 @@ Aqui você encontra as versões compiladas para Windows do aplicativo.
 
 ## 📝 Histórico de Versões
 
-### v1.2.2 (Atual)
+### v1.2.3 (Atual)
+- **Recurso**: Âncoras dinâmicas no Separador de NF — número ilimitado de âncoras por tipo de página; lógica OR por vírgula (ex: `"Nota Fiscal, NF-e"`).
+- **UI**: Todas as seções de lista migradas para `QGridLayout` com cabeçalhos explicativos em ambos os módulos.
+- **UI**: Animações suaves — fade nas transições, modais com deslizamento e escurecimento, feedback de clique nos cards.
+- **Configuração**: Caminhos de PDF removidos das configurações JSON exportadas.
+- **Build**: `build_windows.bat` corrigido (CRLF, log de diagnóstico, percentagens de progresso).
+
+### v1.2.2
 - **UI**: Padronização visual completa entre os módulos Salários e Notas Fiscais.
 - **UI**: Módulo NF exibe resultados apenas após clicar nos botões de processamento.
 - **Refatoração**: `PdfService` singleton com cache de documentos para melhor desempenho.
 - **Refatoração**: Tema centralizado, `MessageMixin` e pool de `PageIcon` — menos uso de memória.
 - **Recurso**: Banco de nomes brasileiros expandido.
 - **Correção**: Janelas e modais abrem sempre no monitor principal em configurações multi-monitor.
-- **Correção**: Campo de tamanho de extração substituído por input numérico simples — elimina botões renderizados incorretamente no build Windows.
 - **Testes**: 146/146 testes passando.
 
 ### v1.2.1
