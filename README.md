@@ -14,9 +14,10 @@ Aqui você encontra as versões compiladas para Windows do aplicativo.
 > Entre em contato com a equipe para obter a senha de acesso.
 
 ### Versão Mais Recente
-- [**Conteris v1.2.3 (ZIP)**](https://github.com/DiogoBenicio/conteris-download/releases/download/v1.2.3/Conteris_Installer_v1.2.3.zip) _(Recomendado)_
+- [**Conteris v1.2.4 (ZIP)**](https://github.com/DiogoBenicio/conteris-download/releases/download/v1.2.4/Conteris_Installer_v1.2.4.zip) _(Recomendado)_
 
 ### Versões Anteriores
+- [**Conteris v1.2.3 (ZIP)**](https://github.com/DiogoBenicio/conteris-download/releases/download/v1.2.3/Conteris_Installer_v1.2.3.zip)
 - [**Conteris v1.2.2 (ZIP)**](https://github.com/DiogoBenicio/conteris-download/releases/download/v1.2.2/Conteris_Installer_v1.2.2.zip)
 - [**Conteris v1.2.1 (ZIP)**](https://github.com/DiogoBenicio/conteris-download/releases/download/v1.2.1/Conteris_Installer_v1.2.1.zip)
 - [Conteris v1.1.1 (ZIP)](https://github.com/DiogoBenicio/conteris-download/releases/download/v1.1.1/Conteris_Installer_v1.1.1.zip)
@@ -26,7 +27,12 @@ Aqui você encontra as versões compiladas para Windows do aplicativo.
 
 ## 📝 Histórico de Versões
 
-### v1.2.3 (Atual)
+### v1.2.4 (Atual)
+- **Recurso**: Galeria de todas as páginas com visualização completa do PDF.
+- **Recurso**: Âncoras secundárias configuráveis por tipo de página.
+- **Recurso**: Extração inteligente de `{nome}` e `{empresa}` com reconhecimento automático.
+
+### v1.2.3
 - **Recurso**: Âncoras dinâmicas no Separador de NF — número ilimitado de âncoras por tipo de página; lógica OR por vírgula (ex: `"Nota Fiscal, NF-e"`).
 - **UI**: Todas as seções de lista migradas para `QGridLayout` com cabeçalhos explicativos em ambos os módulos.
 - **UI**: Animações suaves — fade nas transições, modais com deslizamento e escurecimento, feedback de clique nos cards.
