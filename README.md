@@ -14,9 +14,10 @@ Aqui você encontra as versões compiladas para Windows do aplicativo.
 > Entre em contato com a equipe para obter a senha de acesso.
 
 ### Versão Mais Recente
-- [**Conteris v1.2.4 (ZIP)**](https://github.com/DiogoBenicio/conteris-download/releases/download/v1.2.4/Conteris_Installer_v1.2.4.zip) _(Recomendado)_
+- [**Conteris v1.2.5 (ZIP)**](https://github.com/DiogoBenicio/conteris-download/releases/download/v1.2.5/Conteris_Installer_v1.2.5.zip) _(Recomendado)_
 
 ### Versões Anteriores
+- [**Conteris v1.2.4 (ZIP)**](https://github.com/DiogoBenicio/conteris-download/releases/download/v1.2.4/Conteris_Installer_v1.2.4.zip)
 - [**Conteris v1.2.3 (ZIP)**](https://github.com/DiogoBenicio/conteris-download/releases/download/v1.2.3/Conteris_Installer_v1.2.3.zip)
 - [**Conteris v1.2.2 (ZIP)**](https://github.com/DiogoBenicio/conteris-download/releases/download/v1.2.2/Conteris_Installer_v1.2.2.zip)
 - [**Conteris v1.2.1 (ZIP)**](https://github.com/DiogoBenicio/conteris-download/releases/download/v1.2.1/Conteris_Installer_v1.2.1.zip)
@@ -27,7 +28,35 @@ Aqui você encontra as versões compiladas para Windows do aplicativo.
 
 ## 📝 Histórico de Versões
 
-### v1.2.4 (Atual)
+### v1.2.5 (Atual)
+**NF – Grupos (novo sistema completo):**
+- Tipos excluídos configuráveis — páginas com tipos marcados vão para *Páginas Excluídas* e não entram em nenhum grupo.
+- Auto-grupos — tipos de página podem ser direcionados automaticamente a um grupo fixo nomeado, sem depender de separadores início/fim.
+- Botão *Agrupar+* permite criar um novo grupo manualmente e arrastar páginas para ele via Drag & Drop.
+- Ao criar um grupo via Agrupar+, um card de exportação é gerado automaticamente na seção de configuração.
+- Grupos vazios são removidos automaticamente após mover todas as páginas; card de exportação removido junto.
+- Grupos protegidos (*Sem Classificação* e *Páginas Excluídas*) nunca são removidos automaticamente.
+- Sessão e grupos persistem ao salvar e reabrir o projeto — layout completo restaurado.
+- Auto-grupos incluídos na seção de configuração de exportação.
+- Redesign visual do card Separadores com hierarquia clara e alinhamento padronizado.
+
+**NF – Algoritmo:**
+- Modos só-início, só-fim e ambos funcionam corretamente com exclusões e auto-grupos.
+- OverlayGroupPicker e grupo *Páginas Excluídas* corrigidos.
+
+**Correções:**
+- **ERR-6B64** (KeyError: 'row\_widget') eliminado ao carregar projetos no módulo NF.
+- Splash screen sem borda cinza — logo renderizada via SVG nativo (QSvgRenderer).
+- Ícone do .exe corrigido com ICO de fundo branco e path absoluto no spec.
+
+**UI / Visual:**
+- Fontes e ícones maiores em todos os módulos.
+- Sombra suave nos ícones azul e vermelho da logo.
+
+**Manual:**
+- Reescrito com estrutura completa, logo no cabeçalho e seção dedicada a Grupos.
+
+### v1.2.4
 - **Recurso**: Galeria de todas as páginas com visualização completa do PDF.
 - **Recurso**: Âncoras secundárias configuráveis por tipo de página.
 - **Recurso**: Extração inteligente de `{nome}` e `{empresa}` com reconhecimento automático.
