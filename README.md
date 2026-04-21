@@ -53,8 +53,14 @@ Aqui você encontra as versões compiladas para Windows do aplicativo.
 - Fontes e ícones maiores em todos os módulos.
 - Sombra suave nos ícones azul e vermelho da logo.
 
+**Build:**
+- `build_windows.bat` usa `pyzipper` — gera ZIP protegido sem precisar do 7-Zip.
+
 **Manual:**
 - Reescrito com estrutura completa, logo no cabeçalho e seção dedicada a Grupos.
+
+**Testes:**
+- Testes unitários para modelos, lógica de grupos e assets da logo adicionados.
 
 ### v1.2.4
 - **Recurso**: Galeria de todas as páginas com visualização completa do PDF.
@@ -63,9 +69,13 @@ Aqui você encontra as versões compiladas para Windows do aplicativo.
 
 ### v1.2.3
 - **Recurso**: Âncoras dinâmicas no Separador de NF — número ilimitado de âncoras por tipo de página; lógica OR por vírgula (ex: `"Nota Fiscal, NF-e"`).
+- **Recurso**: Edição manual do tipo de página diretamente na interface.
 - **UI**: Todas as seções de lista migradas para `QGridLayout` com cabeçalhos explicativos em ambos os módulos.
+- **UI**: Modais e previews exibidos como overlay gráfico dentro da janela principal.
+- **UI**: Overlays padronizados, FlowLayout corrigido e janela com scroll.
 - **UI**: Animações suaves — fade nas transições, modais com deslizamento e escurecimento, feedback de clique nos cards.
 - **Configuração**: Caminhos de PDF removidos das configurações JSON exportadas.
+- **Correção**: Lógica de posicionamento de monitor removida — janelas abrem corretamente sem conflitos multi-monitor.
 - **Build**: `build_windows.bat` corrigido (CRLF, log de diagnóstico, percentagens de progresso).
 
 ### v1.2.2
