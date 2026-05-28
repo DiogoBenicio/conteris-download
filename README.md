@@ -14,9 +14,10 @@ Aqui você encontra as versões compiladas para Windows do aplicativo.
 > Entre em contato com a equipe para obter a senha de acesso.
 
 ### Versão Mais Recente
-- [**Conteris v1.2.5 (ZIP)**](https://github.com/DiogoBenicio/conteris-download/releases/download/v1.2.5/Conteris_Installer_v1.2.5.zip) _(Recomendado)_
+- [**Conteris v1.4.0 (ZIP)**](https://github.com/DiogoBenicio/conteris-download/releases/download/v1.4.0/Conteris_Installer_v1.4.0.zip) _(Recomendado)_
 
 ### Versões Anteriores
+- [**Conteris v1.2.5 (ZIP)**](https://github.com/DiogoBenicio/conteris-download/releases/download/v1.2.5/Conteris_Installer_v1.2.5.zip)
 - [**Conteris v1.2.4 (ZIP)**](https://github.com/DiogoBenicio/conteris-download/releases/download/v1.2.4/Conteris_Installer_v1.2.4.zip)
 - [**Conteris v1.2.3 (ZIP)**](https://github.com/DiogoBenicio/conteris-download/releases/download/v1.2.3/Conteris_Installer_v1.2.3.zip)
 - [**Conteris v1.2.2 (ZIP)**](https://github.com/DiogoBenicio/conteris-download/releases/download/v1.2.2/Conteris_Installer_v1.2.2.zip)
@@ -28,7 +29,40 @@ Aqui você encontra as versões compiladas para Windows do aplicativo.
 
 ## 📝 Histórico de Versões
 
-### v1.2.5 (Atual)
+### v1.4.0 (Atual)
+**SS – Funcionalidade "Adicionar páginas":**
+- Seção *Adicionar páginas* na configuração de exportação do Separador de Salários.
+- Modal de seleção visual com tiles clicáveis e destaque para páginas selecionadas.
+- Páginas adicionais incluídas em todos os PDFs gerados, após a página âncora.
+- Tiles de Revisão de Nomes exibem quais páginas compõem cada PDF.
+- Ícone PDF na Revisão de Nomes abre prévia de todas as páginas do arquivo final em scroll contínuo.
+- Persistência em QSettings e arquivo de configuração `.json`.
+
+**UI / Responsividade:**
+- Tela inicial centralizada verticalmente em monitores retrato.
+- Tamanho mínimo da janela reduzido para 580×500 px — sem barra de rolagem horizontal em telas menores.
+- Largura mínima definida em todos os modais para evitar conteúdo apertado.
+
+**Correções:**
+- Instalador gerava nome `v1.2.5` em vez de `v1.4.0` — `innosetup.iss` corrigido.
+- Script de build detecta Python 3.10–3.13 (não mais hardcoded em 3.11).
+
+---
+
+### v1.3.0
+**NF – Seleção múltipla:**
+- Ctrl+click e rubber-band nos grupos e na seção Páginas Identificadas.
+- Arrastar múltiplas páginas de uma vez entre grupos.
+- Editar o tipo de várias páginas simultaneamente via seleção múltipla.
+
+**Correções:**
+- Tipos de página perdidos em batch move entre grupos.
+- Drag-drop multi-seleção carregava apenas 1 página.
+- Erro silencioso no worker de separadores — dialog de erro exibido corretamente.
+
+---
+
+### v1.2.5
 **NF – Grupos (novo sistema completo):**
 - Tipos excluídos configuráveis — páginas com tipos marcados vão para *Páginas Excluídas* e não entram em nenhum grupo.
 - Auto-grupos — tipos de página podem ser direcionados automaticamente a um grupo fixo nomeado, sem depender de separadores início/fim.
